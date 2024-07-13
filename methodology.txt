@@ -1,0 +1,18 @@
+Different ways to get accurate solutions:
+
+There are many different ways to get the desired and accurate output as far of my knowledge I have listed some ways : 
+
+1 - implementation of semantic search or similarity search from utils library
+2 - For more accurate results implementation on Rerankers to retrieve the desired context
+3 - Fine tuning the OpenAI model so that the model gets new weights according to the input data to be          trained
+4 - Using RAG architecture which provides high accuracy and mainly used when you want to input a user defined data.
+5 - By trial and error methods which include changing of hyperparameters like no of tokens, chunk size, chunk overlap, temperature etc....
+6 - using various prompting technics and improving the prompt according to the output generated.
+
+
+
+To make our code more modular, scalable and production grade:
+1 - By writing code in for of try and exception method 
+2 - Deploying code using Heroku or Django that can be up to production grade accuracy
+3 - To debug any error use debug = True in hyperparameters while calling an API function.
+4 - Ensure configuration management using environment variables to make our keys and channels id secure
